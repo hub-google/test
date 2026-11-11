@@ -4,7 +4,9 @@
 
 ## 網站網址
 
-GitHub Pages：<https://hub-google.github.io/test/>
+官網首頁：<https://hub-google.github.io/test/>　
+
+互動功能體驗：<https://hub-google.github.io/test/demo.html#/home>
 
 **尚需啟用 GitHub Pages**：請至 [Settings → Pages](https://github.com/hub-google/test/settings/pages)，將 **Build and deployment → Source** 設為 **Deploy from a branch**，選 **main** 與 **/(root)**，再按 **Save**。啟用後網站會直接從 main 的靜態檔案發布，此步驟需要儲存庫管理權限。
 
@@ -46,7 +48,7 @@ GitHub Pages：<https://hub-google.github.io/test/>
 
 ## 技術
 
-純 HTML、CSS、JavaScript，無第三方套件，支援手機、平板、桌機；hash route 可直接透過 GitHub Pages 使用。公開網站所提供的前端原始碼仍能被使用者查看，符合靜態網頁的正常運作方式。
+純 HTML、CSS、JavaScript，無第三方套件，支援手機、平板、桌機。根目錄是企業官網型展示頁（index.html、marketing.css、marketing.js）；原有功能體驗保留在 demo.html，透過 hash route 瀏覽。公開網站所提供的前端原始碼仍能被使用者查看，符合靜態網頁的正常運作方式。
 
 ## 研究參考
 
