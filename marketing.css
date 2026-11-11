@@ -64,3 +64,9 @@
 .feature-rows b{min-width:32px;font-size:10px}
 .feature-rows em{font-size:8px;padding:4px}
 }
+
+/* Reference naming used for clear, non-official interface comparison. */
+.brand-wrap{display:flex;align-items:center;gap:17px;min-width:0}
+.research-label{font-size:11px;letter-spacing:.2px;color:#6c7781;border:1px solid #dbe0e4;border-radius:20px;padding:5px 9px;white-space:nowrap;font-weight:600}
+@media(max-width:1100px){.brand-wrap{gap:9px}.research-label{font-size:10px}}
+@media(max-width:780px){.research-label{font-size:9px;padding:4px 6px}}
