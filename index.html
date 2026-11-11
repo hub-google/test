@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9f3">
+  <meta name="description" content="餐飲營運管理平台前端介面展示：預約、候位、線上點餐、顧客管理與營運分析。">
+  <title>餐飲營運平台｜預約・候位・線上點餐・顧客管理</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a href="#top" class="logo" aria-label="首頁"><span class="logo-mark">✳</span><span>TableFlow<span class="logo-period">.</span></span></a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navigation" aria-label="開啟選單"><span></span><span></span><span></span></button>
+      <nav class="navigation" id="navigation" aria-label="主要選單">
+        <a href="#solutions">產品功能</a><a href="#experience">運作方式</a><a href="#insights">營運分析</a><a href="#stories">適用場景</a><a href="#faq">常見問題</a>
+      </nav>
+      <a class="button button-dark header-cta" href="#contact">了解更多 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> RESTAURANT OPERATIONS, SIMPLIFIED</span>
+          <h1>讓每一次接待，<br>都<span class="hero-accent">恰到好處<span class="spark">✳</span></span></h1>
+          <p class="hero-lead">從訂位、候位到線上點餐，把繁瑣的日常流程整合在同一個地方，讓團隊專注在真正重要的服務。</p>
+          <div class="hero-actions"><a class="button button-primary" href="#solutions">探索解決方案 <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#experience">看看如何運作 <span aria-hidden="true">▶</span></a></div>
+          <div class="hero-proof"><div class="avatar-stack"><span>陳</span><span>林</span><span>王</span></div><p>專為餐廳與服務現場打造<br><strong>更流暢的接待體驗</strong></p></div>
+        </div>
+        <div class="hero-art" aria-label="餐廳營運管理儀表板示意圖">
+          <div class="orb orb-orange"></div><div class="orb orb-pink"></div><div class="orb orb-yellow"></div><div class="orb orb-blue"></div>
+          <div class="dashboard">
+            <aside class="dash-sidebar"><div class="dash-side-logo">✳</div><span class="dash-icon active">▦</span><span class="dash-icon">▤</span><span class="dash-icon">◷</span><span class="dash-icon">▥</span><span class="dash-icon">⚙</span></aside>
+            <div class="dash-main">
+              <div class="dash-top"><div><small>星期三，11 月 11 日</small><strong>午餐營運概覽</strong></div><span class="dash-online">● 營業中</span></div>
+              <div class="dash-summary"><div><small>今日預約</small><b>38</b><span class="up">↑ 12%</span></div><div><small>候位組數</small><b>08</b><span>即時更新</span></div><div><small>待取餐點</small><b>12</b><span>準備中</span></div></div>
+              <div class="dash-subhead"><strong>即將到店</strong><span>查看全部 ↗</span></div>
+              <div class="booking-row"><div class="booking-avatar">林</div><div><strong>林小姐</strong><small>2 位 ・ 窗邊座位</small></div><time>12:30</time><span class="state state-confirmed">已確認</span></div>
+              <div class="booking-row"><div class="booking-avatar mint">陳</div><div><strong>陳先生</strong><small>4 位 ・ 生日聚餐</small></div><time>13:00</time><span class="state state-arrived">已報到</span></div>
+              <div class="booking-row"><div class="booking-avatar blue">張</div><div><strong>張小姐</strong><small>3 位 ・ 一般座位</small></div><time>13:15</time><span class="state state-confirmed">已確認</span></div>
+            </div>
+          </div>
+          <div class="floating floating-order"><div class="floating-icon">✓</div><div><strong>新訂單已接收</strong><small>外帶取餐 ・ 12:45</small></div></div>
+          <div class="floating floating-rate"><span>✦ 即時串聯</span><strong>一個平台<br>搞定營運</strong></div>
+          <div class="float-dot dot-one">+</div><div class="float-dot dot-two">✳</div>
+        </div>
+      </div>
+      <div class="shell hero-bottom"><span>專注服務，不再為繁瑣流程分心</span><span class="line"></span><span>RESERVATIONS · WAITLIST · ORDERS · CRM</span></div>
+    </section>
+
+    <section class="brands-section"><div class="shell"><p>一站式整合餐飲現場的關鍵工作流程</p><div class="brand-row"><span>預約管理</span><span>候位叫號</span><span>線上訂餐</span><span>顧客關係</span><span>多店營運</span></div></div></section>
+
+    <section class="section solutions" id="solutions"><div class="shell">
+      <div class="section-intro"><div><span class="eyebrow">EVERYTHING IN ONE PLACE</span><h2>每個環節都順暢，<br>好服務自然發生。</h2></div><p>不需要在不同工具之間來回切換。從顧客的第一個動作，到店家的最後一道流程，都能有條不紊。</p></div>
+      <div class="solution-tabs" role="tablist" aria-label="功能分類"><button class="solution-tab active" data-tab="booking" role="tab" aria-selected="true">01 訂位管理</button><button class="solution-tab" data-tab="queue" role="tab" aria-selected="false">02 候位叫號</button><button class="solution-tab" data-tab="orders" role="tab" aria-selected="false">03 線上點餐</button><button class="solution-tab" data-tab="crm" role="tab" aria-selected="false">04 顧客管理</button></div>
+      <div class="solution-detail">
+        <div class="solution-info"><span id="solutionIndex" class="chapter">01 / RESERVATIONS</span><h3 id="solutionTitle">預約從容，接待更有序。</h3><p id="solutionDescription">整合每日訂位資訊、用餐時段與現場安排，減少人工確認與重複登記，讓每組客人都被好好照顧。</p><ul id="solutionPoints"><li>即時查看預約狀態與客人資訊</li><li>彈性管理時段、容量和備註</li><li>清楚掌握每一個接待環節</li></ul><a href="#contact" class="text-link">了解更多功能 <span>↗</span></a></div>
+        <div class="solution-visual"><div class="visual-toolbar"><span class="visual-kicker" id="visualKicker">預約行事曆</span><span class="visual-chip">● Live view</span></div><div class="visual-content" id="visualContent"></div></div>
+      </div>
+    </div></section>
+
+    <section class="section experience" id="experience"><div class="shell exp-grid"><div class="exp-art"><div class="exp-circle"></div><div class="phone"><div class="phone-notch"></div><div class="phone-top"><span>9:41</span><span>••• ▰</span></div><div class="phone-logo">✳ TableFlow</div><p class="phone-welcome">歡迎光臨</p><h4>今天想怎麼<br>享受美食？</h4><div class="phone-action"><span>▦</span><div><b>線上訂位</b><small>挑選適合的用餐時間</small></div><i>›</i></div><div class="phone-action"><span>◷</span><div><b>現場候位</b><small>輕鬆掌握目前排隊進度</small></div><i>›</i></div><div class="phone-action"><span>♨</span><div><b>外帶點餐</b><small>提早下單，準時取餐</small></div><i>›</i></div></div><div class="exp-ticket"><span>訂單進度</span><strong>您的餐點準備中</strong><div class="exp-progress"><i></i></div><small>取餐時間 12:45</small></div></div><div class="exp-copy"><span class="eyebrow">SMOOTHER FOR EVERYONE</span><h2>顧客少等一點，<br>體驗多好一點。</h2><p>不論是預先訂位、現場抽號，或是事先安排的外帶餐點，都能透過清楚的進度和流程降低不確定感。</p><div class="exp-feature"><span class="feature-num">01</span><div><h4>服務入口簡單直覺</h4><p>讓顧客快速選擇訂位、候位或線上點餐，不必反覆尋找入口。</p></div></div><div class="exp-feature"><span class="feature-num">02</span><div><h4>狀態與進度更透明</h4><p>從接單、準備到完成，都能有清楚且可追蹤的狀態。</p></div></div><div class="exp-feature"><span class="feature-num">03</span><div><h4>不同營運方式都能適應</h4><p>餐廳、早餐店與多服務窗口場景，可依需求搭配不同功能。</p></div></div></div></div></section>
+
+    <section class="section insights" id="insights"><div class="shell"><div class="insights-header"><div><span class="eyebrow">BETTER DATA, BETTER DECISIONS</span><h2>不只管理日常，<br>也看懂每一天的成長。</h2></div><p>用一致的資料視角掌握預約、候位與餐點狀況，讓營運規劃更有依據。</p></div><div class="insight-grid"><div class="insight-card"><span>◎ 營運總覽</span><strong>一眼掌握今日表現</strong><p>預約量、候位量、訂單與接待狀態，在同一個畫面呈現。</p><div class="mini-metrics"><div><small>預約</small><b>128</b></div><div><small>候位</small><b>46</b></div><div><small>訂單</small><b>92</b></div></div></div><div class="insight-card insight-card-chart"><span>↗ 趨勢分析</span><strong>找出忙碌時段與變化</strong><p>透過視覺化趨勢回顧，安排更合理的人力與資源。</p><div class="bars"><i style="--h:45%"></i><i style="--h:62%"></i><i style="--h:53%"></i><i style="--h:89%"></i><i style="--h:71%"></i><i style="--h:100%"></i><i style="--h:76%"></i><i style="--h:92%"></i></div></div><div class="insight-card insight-card-multi"><span>◈ 多店管理</span><strong>各家門市，統一視角</strong><p>集中查看各店營運現況，同時保留門市自己的彈性。</p><div class="store-lines"><div><b>信義門市</b><span class="pill-positive">運作正常</span></div><div><b>中山門市</b><span class="pill-positive">運作正常</span></div><div><b>板橋門市</b><span class="pill-neutral">備餐尖峰</span></div></div></div></div><div class="disclaimer">畫面與數值僅為獨立前端概念展示，未連接真實營運資料。</div></div></section>
+
+    <section class="section stories" id="stories"><div class="shell"><div class="center-heading"><span class="eyebrow">BUILT FOR REAL OPERATIONS</span><h2>從小店到多店品牌，<br>都有適合的工作方式。</h2></div><div class="scene-grid"><article class="scene-card"><div class="scene-illustration scene-a"><span>☕</span><div class="scene-pattern"></div></div><div><span class="scene-tag">咖啡廳・早午餐</span><h3>預先點餐，準時取餐</h3><p>客人提前選定取餐時間，店家照排程準備，不用讓餐點提早放涼。</p></div></article><article class="scene-card"><div class="scene-illustration scene-b"><span>🍽</span><div class="scene-pattern"></div></div><div><span class="scene-tag">餐廳・聚餐</span><h3>預約與現場候位，一起管理</h3><p>到店狀況、候位名單與預約資訊整合掌握，接待不再手忙腳亂。</p></div></article><article class="scene-card"><div class="scene-illustration scene-c"><span>🏬</span><div class="scene-pattern"></div></div><div><span class="scene-tag">多門市・連鎖品牌</span><h3>總部管理，門市各自運作</h3><p>統一觀察整體營運表現，讓每家店都能依現場需求彈性調整。</p></div></article></div></div></section>
+
+    <section class="section faq" id="faq"><div class="shell faq-grid"><div><span class="eyebrow">GOOD TO KNOW</span><h2>常見問題</h2><p class="faq-intro">這裡說明前端展示頁可呈現的內容與限制。</p></div><div class="faq-list"><details open><summary>這個網站可以直接處理真實訂單嗎？<span>＋</span></summary><p>目前是獨立的靜態展示頁。視覺與切換互動可操作，但沒有後端、支付、通知與資料庫，不會產生真實訂單。</p></details><details><summary>這是 inline 的官方網站或原始碼嗎？<span>＋</span></summary><p>不是。本頁依餐飲營運平台的公開功能類別，自行撰寫 HTML、CSS 與 JavaScript，沒有複製 inline 的原始程式碼或官方素材。</p></details><details><summary>可以放在 GitHub Pages 上瀏覽嗎？<span>＋</span></summary><p>可以。這是純靜態網站，將儲存庫的 Pages 發布來源設為 main 分支根目錄即可直接瀏覽。</p></details></div></div></section>
+
+    <section class="contact-section" id="contact"><div class="shell"><div class="contact-box"><div class="contact-deco one">✳</div><div class="contact-deco two">◌</div><span class="eyebrow">MAKE EVERY MOMENT COUNT</span><h2>用更好的流程，<br>創造更好的體驗。</h2><p>預約・候位・線上點餐・顧客管理，從一個好用的入口開始。</p><a class="button button-white" href="#top">回到首頁 <span>↗</span></a></div></div></section>
+  </main>
+  <footer><div class="shell footer-inner"><a class="logo" href="#top"><span class="logo-mark">✳</span><span>TableFlow<span class="logo-period">.</span></span></a><p>獨立製作的餐飲營運平台前端示範頁｜非 inline 官方網站</p><a href="https://inline.company/zh/" target="_blank" rel="noopener noreferrer">參考來源：inline ↗</a></div></footer>
+</body>
+</html>
