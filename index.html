@@ -2,15 +2,92 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="SeatFlow 訂位、候位、桌位與顧客關係管理互動示範站。">
-<meta name="theme-color" content="#0c2429">
-<title>SeatFlow · 訂候位營運體驗</title>
-<link rel="stylesheet" href="./styles.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="SeatFlow 訂候位營運平台操作示範。整合預約、現場候位、桌位、顧客與訂單管理。">
+<title>SeatFlow｜餐廳訂候位與營運管理</title>
+<link rel="stylesheet" href="./marketing.css">
 </head>
 <body>
-<div id="app"></div>
-<div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="./app.js" defer></script>
+<header class="top" id="top">
+  <div class="top-inner">
+    <a href="#top" class="wordmark" aria-label="SeatFlow 首頁"><span class="brand-dot"></span>seat<span>flow</span></a>
+    <button id="mobileToggle" class="hamburger" aria-label="展開選單" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav id="topNav" class="top-nav" aria-label="網站導覽">
+      <a href="#partners">合作夥伴</a><a href="#features">主要服務</a><a href="#stories">客戶體驗</a><a href="#collaborate">品牌合作</a><a href="#contact">申請試用</a><a href="#faq">常見問題</a>
+      <a class="nav-cta" href="./demo.html#/discover">訂位找餐廳</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="masthead">
+  <div class="hero-content">
+    <div class="hero-copy">
+      <h1>餐廳接待，<strong>不再手忙腳亂</strong></h1>
+      <h2>Reception, beautifully simplified.</h2>
+      <p>SeatFlow 專為餐廳經營者打造，<br>整合線上預約、現場候位與桌位管理，<br>讓接待流程更有效率、服務更加從容。</p>
+      <div class="hero-buttons"><a class="cta-blue" href="./demo.html#/dashboard">立即體驗操作後台 <span>↗</span></a><a class="link-under" href="#features">了解主要服務 <span>→</span></a></div>
+      <span class="demo-note">互動展示網站・非 inline 官方服務</span>
+    </div>
+    <div class="product-art" aria-label="餐廳管理系統的桌上型電腦、平板與手機介面示意">
+      <div class="shape-orange"></div><div class="shape-blue"></div><div class="shape-yellow"></div>
+      <div class="device laptop">
+        <div class="screen">
+          <div class="bar tiny"><span class="traffic">● ● ●</span><span>SeatFlow Manager</span><span>⌕　⚙</span></div>
+          <div class="app-layout">
+            <div class="app-sidebar">
+              <span class="app-logo">sf.</span>
+              <span class="app-sidenav selected">◈　 營運總覽</span><span class="app-sidenav">▤　 訂位管理</span><span class="app-sidenav">≋　 候位管理</span><span class="app-sidenav">▦　 桌位配置</span><span class="app-sidenav">♧　 顧客資料</span><span class="app-sidenav">▧　 營運分析</span>
+            </div>
+            <div class="app-main">
+              <div class="screenhead"><div><small>11 / 11 WEDNESDAY</small><h3>今日訂位總覽</h3></div><span class="screenbtn">＋ 新增訂位</span></div>
+              <div class="mini-kpis"><div><small>今日訂位</small><b>24</b></div><div><small>預計來客</small><b>68</b></div><div><small>現場候位</small><b>08</b></div></div>
+              <div class="app-tablehead"><span>時間</span><span>訂位姓名</span><span>人數</span><span>狀態</span><span>桌位</span></div>
+              <div class="app-tablerow"><span>17:30</span><span><i class="avatar one"></i> 林小姐</span><span>3</span><span><em>已確認</em></span><span>A3</span></div>
+              <div class="app-tablerow"><span>18:00</span><span><i class="avatar two"></i> 陳先生</span><span>2</span><span><em>已確認</em></span><span>B1</span></div>
+              <div class="app-tablerow"><span>18:30</span><span><i class="avatar three"></i> 王小姐</span><span>4</span><span><em class="warning">待確認</em></span><span>—</span></div>
+              <div class="app-tablerow"><span>19:00</span><span><i class="avatar four"></i> 許先生</span><span>2</span><span><em>已確認</em></span><span>A1</span></div>
+              <div class="app-tablerow"><span>19:30</span><span><i class="avatar five"></i> 李小姐</span><span>5</span><span><em>已確認</em></span><span>B4</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="laptop-bottom"></div>
+      </div>
+      <div class="device tablet">
+        <div class="screen tablet-screen">
+          <div class="tablet-head"><b>seatflow</b><span>11月11日 星期三　 ▣</span><span>⚙</span></div>
+          <div class="tablet-body"><div class="tablet-topstats"><span>今日訂位 <b>24</b></span><span>到店 <b>13</b></span><span>候位 <b>08</b></span></div>
+          <div class="tablet-tabs"><span>全部</span><span>訂位</span><span>候位</span><span>已完成</span></div>
+          <div class="tablet-row"><b>18:00</b><span>陳先生</span><span>2 位</span><i></i></div>
+          <div class="tablet-row"><b>18:15</b><span>林小姐</span><span>3 位</span><i></i></div>
+          <div class="tablet-row"><b>18:30</b><span>王小姐</span><span>4 位</span><i></i></div>
+          <div class="tablet-row"><b>19:00</b><span>許先生</span><span>2 位</span><i></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="device phone">
+        <div class="screen phone-screen">
+          <div class="notch"></div><span class="phone-brand">seatflow</span><div class="phone-card"><div class="phone-symbol">✓</div><small>候位登記成功</small><b>A 0 2 8</b><p>青杉小館</p><div class="phone-line"></div><span>前方還有 <strong>3</strong> 組</span><div class="phone-pill">查看候位進度</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="partners" class="partners"><div class="section-wrap"><p>從餐廳現場出發，打造更順暢的每一次接待</p><div class="partner-metrics"><div><strong>01</strong><span>預約集中管理</span></div><div><strong>02</strong><span>候位資訊透明</span></div><div><strong>03</strong><span>跨裝置操作體驗</span></div></div></div></section>
+<section id="features" class="features"><div class="section-wrap"><span class="section-kicker">POWERFUL PRODUCTIVITY TOOLS</span><h2>把繁瑣留給系統，<br><em>把時間還給服務。</em></h2><p class="section-intro">為顧客與店員設計清楚易用的操作流程，從訂位、候位到離店後的關係經營。</p>
+<div class="feature-grid">
+<article class="feature-card"><div class="feature-icon">▤</div><div class="feature-num">01 / RESERVATIONS</div><h3>線上訂位管理</h3><p>顧客自行選擇日期與時段，店家可立即檢視、確認或調整預約資料。</p><a href="./demo.html#/book">體驗預約流程 ↗</a></article>
+<article class="feature-card"><div class="feature-icon">≋</div><div class="feature-num">02 / QUEUE</div><h3>現場候位叫號</h3><p>依序抽號、持續叫號並查看進度，減少現場等待與人工對號的混亂。</p><a href="./demo.html#/queue">體驗叫號管理 ↗</a></article>
+<article class="feature-card"><div class="feature-icon">▦</div><div class="feature-num">03 / TABLES</div><h3>桌位與現場配置</h3><p>用簡單的桌位圖安排訂位，掌握可用桌位與當日服務狀態。</p><a href="./demo.html#/floor">查看桌位圖 ↗</a></article>
+<article class="feature-card"><div class="feature-icon">♧</div><div class="feature-num">04 / GUESTS</div><h3>顧客資料管理</h3><p>整合來店紀錄與服務偏好，協助門市提供更一致的顧客體驗。</p><a href="./demo.html#/customers">查看顧客管理 ↗</a></article>
+<article class="feature-card"><div class="feature-icon">◷</div><div class="feature-num">05 / ORDERS</div><h3>餐點狀態管理</h3><p>建立示範餐點訂單，練習製作中、出餐完成的完整操作。</p><a href="./demo.html#/orders">體驗點餐流程 ↗</a></article>
+<article class="feature-card"><div class="feature-icon">▧</div><div class="feature-num">06 / INSIGHTS</div><h3>營運資料分析</h3><p>將訂位、候位及餐點資料彙整，快速理解營運概況。</p><a href="./demo.html#/reports">查看營運報表 ↗</a></article>
+</div></div></section>
+<section id="stories" class="story-section"><div class="section-wrap story-wrap"><div><span class="section-kicker">DESIGNED FOR REAL OPERATIONS</span><h2>從預約的第一刻，<br>到現場的每個細節。</h2><p>不用在不同畫面來回尋找，店員能以清楚的流程接續每一筆服務。這份網站示範從顧客訂位，到現場叫號，再到店家完成服務的整體操作。</p><a class="cta-blue" href="./demo.html#/dashboard">開啟操作體驗 ↗</a></div><div class="workflow-card"><div class="workflow-head"><span class="live-dot"></span> 今日服務進度 <small>DEMO</small></div><div class="workflow-step"><i>1</i><div><b>預約建立</b><span>已收到預約需求</span></div><strong>✓</strong></div><div class="workflow-step"><i>2</i><div><b>到店報到</b><span>顧客資料與預約核對</span></div><strong>✓</strong></div><div class="workflow-step current"><i>3</i><div><b>安排入座</b><span>服務窗口持續接待下一位</span></div><strong>進行中</strong></div><div class="workflow-step"><i>4</i><div><b>服務完成</b><span>留下完整服務紀錄</span></div></div></div></div></section>
+<section id="collaborate" class="callout-section"><div class="section-wrap callout-box"><div><span>SEATFLOW EXPERIENCE</span><h2>每一個好服務，<br>都從流暢的接待開始。</h2><p>現在就開啟示範系統，實際操作訂位、取號與店家管理。</p></div><a href="./demo.html#/home" class="white-cta">立即開始體驗 <span>↗</span></a></div></section>
+<section id="faq" class="faq"><div class="section-wrap"><span class="section-kicker">QUESTIONS & ANSWERS</span><h2>常見問題</h2><details><summary>這是 inline 官方網站嗎？</summary><p>不是。SeatFlow 是獨立製作的功能操作示範，並非 inline 官方網站，也沒有使用其商標或網站原始程式碼。</p></details><details><summary>這個網站可以真的幫餐廳預約嗎？</summary><p>目前不能。所有資料只存放在使用者自己的瀏覽器內，供操作與流程驗證使用。</p></details><details><summary>可以在不同裝置看到相同訂位嗎？</summary><p>目前尚未串接雲端資料庫，僅同一瀏覽器內可保存與同步展示資料。</p></details></div></section>
+</main>
+<footer id="contact"><div class="section-wrap foot-inner"><a href="#top" class="wordmark"><span class="brand-dot"></span>seat<span>flow</span></a><p>訂位、候位與門市管理的原創互動展示。</p><a href="./demo.html#/discover">開始體驗 →</a><small>© 2026 SeatFlow Demo. 非 inline 官方產品。</small></div></footer>
+<script src="./marketing.js" defer></script>
 </body>
 </html>
