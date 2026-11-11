@@ -47,7 +47,7 @@ function tag(status){var color={'已確認':'success','已入座':'success','已
 function button(text,action,extra,cls){return '<button type="button" class="btn '+(cls||'')+'" data-action="'+esc(action)+'" '+(extra||'')+'>'+text+'</button>';}
 function field(label,name,type,value,opts){return '<div class="field"><label for="'+esc(name)+'">'+esc(label)+'</label><input id="'+esc(name)+'" name="'+esc(name)+'" type="'+(type||'text')+'" value="'+esc(value||'')+'" '+(opts||'')+'></div>';}
 function select(label,name,options,value){return '<div class="field"><label for="'+esc(name)+'">'+esc(label)+'</label><select id="'+esc(name)+'" name="'+esc(name)+'">'+options.map(function(x){var v=typeof x==='string'?x:x[0],n=typeof x==='string'?x:x[1];return '<option value="'+esc(v)+'" '+(String(v)===String(value)?'selected':'')+'>'+esc(n)+'</option>';}).join('')+'</select></div>';}
-function header(title,sub,extra){return '<div class="pagehead"><div><div class="eyebrow">SEATFLOW / EXPERIENCE</div><h1>'+esc(title)+'</h1><p>'+esc(sub||'')+'</p></div><div class="actions">'+(extra||'')+'</div></div>';}
+function header(title,sub,extra){return '<div class="pagehead"><div><div class="eyebrow">INLINE / UI REFERENCE</div><h1>'+esc(title)+'</h1><p>'+esc(sub||'')+'</p></div><div class="actions">'+(extra||'')+'</div></div>';}
 function empty(msg){return '<div class="empty"><div class="glyph">☘</div><b>目前沒有資料</b>'+esc(msg||'可新增資料開始體驗')+'</div>';}
 function restaurantSelect(){return '<select class="input" data-change="rid">'+db.restaurants.map(function(r){return '<option value="'+esc(r.id)+'" '+(ui.rid===r.id?'selected':'')+'>'+esc(r.name)+'</option>';}).join('')+'</select>';}
 function navGroup(items){return '<nav>'+items.map(function(it){return '<button class="navitem '+(route()===it[0]?'active':'')+'" data-route="'+it[0]+'"><span class="navemoji">'+it[2]+'</span>'+it[1]+'</button>';}).join('')+'</nav>';}
@@ -55,10 +55,10 @@ function shell(content){
 var r=route();
 document.getElementById('app').innerHTML=
 '<div class="layout">'+
-'<aside id="sidebar" class="side '+(ui.menuOpen?'open':'')+'"><a class="brand" href="#/home"><span class="brandmark">S</span> SeatFlow</a><div class="cap">CUSTOMER EXPERIENCE</div>'+navGroup(itemsPublic)+
+'<aside id="sidebar" class="side '+(ui.menuOpen?'open':'')+'"><a class="brand" href="#/home"><span class="brandmark">i</span> inline <span style="font-size:10px;color:#aab4c3;font-weight:600;letter-spacing:0">非官方研究</span></a><div class="cap">CUSTOMER EXPERIENCE</div>'+navGroup(itemsPublic)+
 '<div class="cap">MERCHANT WORKSPACE</div>'+navGroup(itemsStaff)+
 '<div class="sidebottom"><b>獨立研發的功能示範</b><p>所有店家與顧客均為虛構資料；資料只保存在目前瀏覽器，不會發送訊息或收款。</p></div></aside>'+
-'<main class="main"><header class="header"><div class="headerleft"><button class="mobilemenu" data-action="menu" aria-label="開啟選單">☰</button><div class="crumb">SeatFlow　/　'+esc(titles[r])+'</div></div><div class="headeractions"><span class="pill"><i class="dot"></i> 互動展示版</span><span class="usercircle">SF</span></div></header><div class="page">'+content+'<div class="footer">SeatFlow 為獨立製作的操作研究 Demo，非 inline 官方網站、無商業合作或實際訂位服務。</div></div></main></div>'+
+'<main class="main"><header class="header"><div class="headerleft"><button class="mobilemenu" data-action="menu" aria-label="開啟選單">☰</button><div class="crumb">inline 介面研究　/　'+esc(titles[r])+'</div></div><div class="headeractions"><span class="pill"><i class="dot"></i> 互動展示版</span><span class="usercircle">SF</span></div></header><div class="page">'+content+'<div class="footer">本頁為非官方介面研究，與 inline 無合作或隸屬關係。所有操作資料僅儲存在本機，不提供實際訂位服務。</div></div></main></div>'+
 '<nav class="mobilebar"><button class="'+(r==='home'?'active':'')+'" data-route="home"><span>⌂</span>首頁</button><button class="'+(r==='discover'||r==='book'?'active':'')+'" data-route="discover"><span>⌕</span>找餐廳</button><button class="'+(r==='join'||r==='board'?'active':'')+'" data-route="join"><span>≋</span>候位</button><button class="'+(['dashboard','reservations','queue','floor','customers','orders','reports','settings'].includes(r)?'active':'')+'" data-route="dashboard"><span>▤</span>店家後台</button></nav>';
 }
 function home(){
@@ -102,7 +102,7 @@ return header('不用在現場等，也不錯過美好','領取示範候位號�
 function board(){
 var r=current(),all=queues(r.id,today()),called=all.filter(function(q){return q.called&&q.status!=='已取消';}).sort(function(a,b){return b.called-a.called;})[0],waiting=all.filter(function(q){return q.status==='候位中';}).sort(function(a,b){return a.created-b.created;}).slice(0,7);
 return header('公開候位看板','大螢幕與手機皆可查看，示範資料在同一瀏覽器的分頁間同步。','<div style="min-width:160px">'+restaurantSelect()+'</div>')+
-'<div class="board"><div class="between"><div><div class="boardlabel">'+esc(r.name)+' · 今日叫號</div><div class="boardlabel" style="margin-top:10px;color:#ecf4ed">NOW SERVING</div></div><span class="previewflag">DEMO</span></div><div class="now">'+(called?esc(called.number):'尚未叫號')+'</div><div class="boardlabel">即將輪到</div><div class="waiting" style="margin-top:15px">'+(waiting.length?waiting.map(function(q){return '<span>'+esc(q.number)+'</span>';}).join(''):'<span style="font-size:18px">目前無候位</span>')+'</div><div class="boardfoot">目前尚有 '+all.filter(activeQueue).length+' 組進行中的候位 · 本機資料自動同步</div></div>'+
+'<div class="board"><div class="between"><div><div class="boardlabel">'+esc(r.name)+' · 今日叫號</div><div class="boardlabel" style="margin-top:10px;color:#ecf4ed">NOW SERVING</div></div><span class="previewflag">非官方</span></div><div class="now">'+(called?esc(called.number):'尚未叫號')+'</div><div class="boardlabel">即將輪到</div><div class="waiting" style="margin-top:15px">'+(waiting.length?waiting.map(function(q){return '<span>'+esc(q.number)+'</span>';}).join(''):'<span style="font-size:18px">目前無候位</span>')+'</div><div class="boardfoot">目前尚有 '+all.filter(activeQueue).length+' 組進行中的候位 · 本機資料自動同步</div></div>'+
 '<div class="actions" style="margin-top:16px">'+button('店家叫號管理','goto','data-page="queue"','primary')+button('進入全螢幕','fullscreen','','')+'</div>';
 }
 function dashboard(){
@@ -113,7 +113,7 @@ kpi('今日訂位',b.filter(activeBooking).length,'與當日日期連動','▦')
 kpi('待處理訂位',b.filter(function(x){return x.status==='待確認';}).length,'需要確認的訂位','◎')+
 kpi('目前候位',waiting.length,'候位中與已叫號','≋')+
 kpi('已安排入座',done.length,'候位已入座或完成','◈')+'</div>'+
-'<div style="height:24px"></div><section class="hero" style="min-height:220px"><div class="copy"><div class="eyebrow">LIVE OPERATIONS DEMO</div><h1 style="font-size:30px">每一個現場細節，<br>都能順暢接力。</h1><p>資料在本瀏覽器中即時保存。操作列表與看板，體驗狀態如何同步改變。</p><div class="actions">'+button('管理今日訂位','goto','data-page="reservations"','primary')+button('進入叫號管理','goto','data-page="queue"','')+'</div></div><div class="heroart"><div class="ticket"><span>TODAY BOOKINGS</span><b>'+String(confirmed.length).padStart(2,'0')+'</b><small>'+esc(r.name)+'・已確認</small></div></div></section>'+
+'<div style="height:24px"></div><section class="hero" style="min-height:220px"><div class="copy"><div class="eyebrow">OPERATIONS EXPERIENCE</div><h1 style="font-size:30px">每一個現場細節，<br>都能順暢接力。</h1><p>資料在本瀏覽器中即時保存。操作列表與看板，體驗狀態如何同步改變。</p><div class="actions">'+button('管理今日訂位','goto','data-page="reservations"','primary')+button('進入叫號管理','goto','data-page="queue"','')+'</div></div><div class="heroart"><div class="ticket"><span>TODAY BOOKINGS</span><b>'+String(confirmed.length).padStart(2,'0')+'</b><small>'+esc(r.name)+'・已確認</small></div></div></section>'+
 '<div style="height:24px"></div><div class="grid g2"><div class="card"><div class="sectiontitle"><h2>今日訂位</h2><button class="btn sm" data-route="reservations">查看全部 →</button></div>'+
 (b.length?b.slice(0,4).map(function(x){return '<div class="queueitem"><div class="queuenum">'+esc(x.time)+'</div><div class="qmeta"><b>'+esc(x.name)+'・'+esc(x.party)+' 位</b><small>'+esc(x.note||'無備註')+'</small></div>'+tag(x.status)+'</div>';}).join(''):empty())+'</div><div class="card"><div class="sectiontitle"><h2>候位進度</h2><button class="btn sm" data-route="queue">管理候位 →</button></div>'+
 (q.length?q.slice(-5).map(function(x){return '<div class="queueitem"><div class="queuenum">'+esc(x.number)+'</div><div class="qmeta"><b>'+esc(x.name)+'・'+esc(x.party)+' 位</b><small>登記 '+formatClock(x.created)+'</small></div>'+tag(x.status)+'</div>';}).join(''):empty())+'</div></div>';
@@ -176,7 +176,7 @@ function settings(){var r=current();return header('商家設定','自由調整�
 function render(){
 ui.menuOpen=false;
 var page=route(),fn={home:home,discover:discover,book:book,join:join,lookup:bookingLookup,board:board,dashboard:dashboard,reservations:reservationList,queue:queueAdmin,floor:floor,customers:customerList,orders:orders,reports:reports,settings:settings}[page];
-document.title=(titles[page]||'體驗')+' · SeatFlow';
+document.title=(titles[page]||'體驗')+' · inline 介面研究（非官方）';
 shell(fn());if(ui.modal)showModal(ui.modal);
 }
 function modal(title,body){ui.modal='<div class="modalback" id="modalback"><div class="modal" role="dialog" aria-modal="true" aria-label="'+esc(title)+'"><div class="modalhead"><h2>'+esc(title)+'</h2><button type="button" class="xbtn" data-action="close" aria-label="關閉">×</button></div>'+body+'</div></div>';showModal(ui.modal);}
@@ -256,7 +256,7 @@ if(action==='newOrder'){orderModal();return;}
 if(action==='cartPlus'||action==='cartMinus'){ui.cart[id]=Math.max(0,(ui.cart[id]||0)+(action==='cartPlus'?1:-1));var name=document.querySelector('#orderForm [name="orderName"]');var preserved=name?name.value:'';displayOrderModal();var fld=document.querySelector('#orderForm [name="orderName"]');if(fld)fld.value=preserved;return;}
 if(action==='orderAction'){var o=db.orders.find(function(x){return x.id===id;});if(o){o.status=st;save();render();toast('訂單已更新');}return;}
 if(action==='viewOrder'){var o=db.orders.find(function(x){return x.id===id;});if(o)modal('訂單 '+o.id,'<div class="result">顧客：'+esc(o.name)+'<br>訂單狀態：'+esc(o.status)+'</div>'+o.items.map(function(i){return '<div class="summaryline"><span>'+esc(i.name)+' × '+i.qty+'</span><b>NT$'+i.qty*i.price+'</b></div>';}).join('')+'<div class="summaryline"><b>總計</b><b>NT$'+o.total+'</b></div>');return;}
-if(action==='reset'){if(confirm('這會清除目前瀏覽器中所有 SeatFlow 示範資料，確定繼續嗎？')){db=seed();ui.rid='green';save();render();toast('已重設示範資料');}return;}
+if(action==='reset'){if(confirm('這會清除目前瀏覽器中所有本機操作資料，確定繼續嗎？')){db=seed();ui.rid='green';save();render();toast('已重設示範資料');}return;}
 }
 document.addEventListener('click',function(ev){
 var t=ev.target.closest('[data-route],[data-action]');if(!t){if(ev.target.id==='modalback')close();return;}
