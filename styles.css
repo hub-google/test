@@ -4,3 +4,31 @@
 @media(max-width:1100px){.side{width:205px}.page{padding:27px 24px 70px}.header{padding:0 24px}.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.split{grid-template-columns:1fr}.heroart .ticket{right:10%}}
 @media(max-width:760px){.layout{display:block;padding-bottom:65px}.side{display:none}.side.open{display:flex;position:fixed;z-index:60;top:0;bottom:0;left:0;height:100vh;width:260px;box-shadow:20px 0 100px #102c3188}.header{height:60px;padding:0 16px}.mobilemenu{display:inline-flex;background:transparent;border:0;font-size:25px;color:var(--ink)}.headeractions .pill{font-size:10px;padding:6px}.headeractions{gap:7px}.page{padding:22px 15px 28px}.pagehead{align-items:start;flex-direction:column}.pagehead h1{font-size:25px}.g3,.g2,.g4{grid-template-columns:1fr}.g4.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.kpi{padding:15px}.kpi strong{font-size:25px}.card{padding:16px}.hero{min-height:225px}.hero .copy{padding:25px}.hero h1{font-size:27px}.heroart{display:none}.formrow{grid-template-columns:1fr}.slots{grid-template-columns:repeat(3,minmax(0,1fr))}.board{padding:23px;min-height:410px}.board .now{letter-spacing:-4px}.board .waiting span{font-size:19px;padding:11px 16px}.floor{grid-template-columns:repeat(2,minmax(0,1fr));padding:14px;gap:10px}.flooritem{min-width:85px}.modal{padding:18px}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;height:65px;background:#fff;border-top:1px solid var(--line);z-index:30;justify-content:space-around;align-items:center;box-shadow:0 -6px 25px #12323412}.mobilebar button{display:grid;justify-items:center;gap:2px;background:none;border:0;color:#748a87;font-size:10px;font-weight:750;padding:8px}.mobilebar button span{font-size:21px}.mobilebar button.active{color:#087f73}.datatable th,.datatable td{padding:11px 9px}.between.stackmobile{align-items:start;flex-direction:column}.queueitem{flex-wrap:wrap}.queueitem .actions{width:100%;padding-left:65px}}
 @media(min-width:761px) and (max-width:900px){.heroart{display:none}.g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Non-official UI research styling: indigo management navigation and orange actions */
+:root{--green:#ef6a37;--orange:#ef6a37;--ink:#26304b;--ink2:#425171;--soft:#fff2e9;--bg:#f7f8fa}
+.side{background:#23294d;color:#c8cedc}
+.brand{color:#ff7546;font-size:24px}
+.brandmark{background:#fa6c3a;color:white;transform:none}
+.side .cap{color:#a4aec4}
+.navitem{color:#c8cee0}
+.navitem:hover{background:#354064;color:#fff}
+.navitem.active{background:#384668;color:white;border-left:3px solid #ff773e}
+.sidebottom{border-color:#4b5680}
+.sidebottom b{color:#ffd6ae}
+.sidebottom p{color:#a5abc0}
+.btn.primary{background:#f46a38;border-color:#f46a38}
+.btn.primary:hover{background:#db562b}
+.btn.dark{background:#23294d;border-color:#23294d}
+.tab.active{border-color:#f46a38;color:#e56537}
+.eyebrow{color:#f46a38}
+.queueitem .queuenum{background:#fff0e5;color:#db653d}
+.board{background:#23294d}
+.board .waiting span{background:#3a446b;color:#fff6e8}
+.tag.warning,.tag.候位中,.tag.已叫號{background:#fff0da;color:#aa6817}
+.hero{background:#23294d}
+.hero:before{background:radial-gradient(circle at 60% 45%,#f0a867 0,#b96157 23%,#57465e 52%,transparent 70%)}
+.heroart .ticket{color:#5b3a49}
+.heroart .ticket b{color:#f06437}
+.pill .dot{background:#f46a38}
+@media(max-width:760px){.side.open{background:#23294d}}
