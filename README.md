@@ -1,14 +1,14 @@
-# SeatFlow — 訂位／候位營運互動示範
+# inline 非官方介面研究 — 訂位／候位操作流程
 
 > 原創 UI 與互動邏輯。**非 inline 官方網站**，未使用或重發 inline 的 HTML、CSS、JavaScript、商標、圖片、資料庫或非公開 API。使用 inline 公開產品資料作為功能研究參考，並獨立實作下列可操作的示範流程。
 
 ## 網站網址
 
-官網首頁：<https://hub-google.github.io/test/>　
+研究頁面：<https://hub-google.github.io/test/>　
 
 互動功能體驗：<https://hub-google.github.io/test/demo.html#/home>
 
-**尚需啟用 GitHub Pages**：請至 [Settings → Pages](https://github.com/hub-google/test/settings/pages)，將 **Build and deployment → Source** 設為 **Deploy from a branch**，選 **main** 與 **/(root)**，再按 **Save**。啟用後網站會直接從 main 的靜態檔案發布，此步驟需要儲存庫管理權限。
+GitHub Pages 已設定為從 main 的根目錄發布。
 
 ## 可操作的功能
 
