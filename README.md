@@ -6,7 +6,7 @@
 
 GitHub Pages：<https://hub-google.github.io/test/>
 
-如果尚無法開啟，請至 [Settings → Pages](https://github.com/hub-google/test/settings/pages) 將 **Build and deployment → Source** 設為 **GitHub Actions**。此 Repo 已放入 .github/workflows/pages.yml，在 main 更新時會執行部署。
+**尚需啟用 GitHub Pages**：請至 [Settings → Pages](https://github.com/hub-google/test/settings/pages)，將 **Build and deployment → Source** 設為 **Deploy from a branch**，選 **main** 與 **/(root)**，再按 **Save**。啟用後網站會直接從 main 的靜態檔案發布，此步驟需要儲存庫管理權限。
 
 ## 可操作的功能
 
