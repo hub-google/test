@@ -1,0 +1,3851 @@
+.wpcf7-back{float:left;width:70px;margin-top:5px;position:relative}.cf7msm-ro{white-space:pre-wrap}
+.popup-template .modal{opacity:0;transition:all .25s ease}.popup-template .modal.is-open{opacity:1;transition:all .25s ease}
+
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal0.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal1.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal10.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal100.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal101.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal102.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal103.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal104.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal11.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal12.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal13.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal14.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal15.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal16.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal17.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal18.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal19.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal2.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal20.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal21.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal22.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal23.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal24.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal25.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal26.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal27.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal28.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal29.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal3.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal30.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal31.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal32.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal33.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal34.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal35.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal36.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal37.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal38.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal39.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal4.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal40.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal41.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal42.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal43.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal44.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal45.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal46.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal47.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal48.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal49.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal5.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal50.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal51.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal52.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal53.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal54.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal55.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal56.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal57.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal58.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal59.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal6.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal60.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal61.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal62.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal63.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal64.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal65.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal66.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal67.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal68.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal69.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal7.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal70.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal71.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal72.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal73.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal74.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal75.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal76.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal77.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal78.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal79.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal8.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal80.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal81.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal82.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal83.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal84.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal85.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal86.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal87.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal88.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal89.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal9.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal90.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal91.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal92.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal93.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal94.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal95.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal96.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal97.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal98.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-100-normal99.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal0.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal1.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal10.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal100.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal101.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal102.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal103.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal104.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal11.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal12.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal13.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal14.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal15.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal16.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal17.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal18.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal19.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal2.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal20.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal21.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal22.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal23.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal24.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal25.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal26.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal27.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal28.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal29.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal3.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal30.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal31.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal32.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal33.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal34.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal35.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal36.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal37.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal38.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal39.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal4.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal40.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal41.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal42.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal43.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal44.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal45.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal46.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal47.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal48.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal49.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal5.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal50.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal51.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal52.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal53.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal54.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal55.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal56.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal57.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal58.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal59.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal6.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal60.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal61.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal62.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal63.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal64.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal65.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal66.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal67.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal68.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal69.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal7.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal70.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal71.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal72.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal73.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal74.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal75.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal76.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal77.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal78.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal79.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal8.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal80.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal81.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal82.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal83.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal84.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal85.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal86.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal87.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal88.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal89.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal9.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal90.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal91.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal92.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal93.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal94.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal95.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal96.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal97.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal98.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-400-normal99.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal0.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal1.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal10.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal100.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal101.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal102.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal103.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal104.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal11.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal12.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal13.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal14.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal15.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal16.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal17.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal18.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal19.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal2.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal20.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal21.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal22.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal23.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal24.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal25.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal26.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal27.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal28.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal29.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal3.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal30.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal31.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal32.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal33.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal34.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal35.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal36.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal37.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal38.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal39.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal4.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal40.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal41.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal42.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal43.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal44.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal45.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal46.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal47.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal48.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal49.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal5.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal50.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal51.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal52.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal53.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal54.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal55.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal56.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal57.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal58.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal59.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal6.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal60.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal61.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal62.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal63.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal64.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal65.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal66.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal67.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal68.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal69.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal7.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal70.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal71.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal72.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal73.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal74.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal75.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal76.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal77.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal78.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal79.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal8.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal80.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal81.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal82.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal83.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal84.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal85.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal86.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal87.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal88.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal89.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal9.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal90.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal91.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal92.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal93.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal94.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal95.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal96.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal97.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal98.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-500-normal99.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal0.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal1.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal10.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal100.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal101.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal102.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal103.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal104.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal11.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal12.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal13.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal14.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal15.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal16.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal17.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal18.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal19.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal2.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal20.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal21.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal22.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal23.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal24.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal25.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal26.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal27.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal28.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal29.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal3.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal30.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal31.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal32.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal33.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal34.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal35.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal36.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal37.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal38.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal39.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal4.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal40.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal41.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal42.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal43.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal44.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal45.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal46.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal47.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal48.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal49.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal5.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal50.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal51.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal52.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal53.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal54.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal55.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal56.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal57.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal58.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal59.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal6.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal60.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal61.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal62.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal63.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal64.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal65.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal66.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal67.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal68.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal69.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal7.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal70.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal71.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal72.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal73.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal74.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal75.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal76.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal77.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal78.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal79.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal8.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal80.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal81.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal82.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal83.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal84.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal85.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal86.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal87.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal88.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal89.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal9.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal90.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal91.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal92.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal93.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal94.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal95.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal96.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal97.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal98.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-700-normal99.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal0.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal1.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal10.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal100.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal101.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal102.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal103.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal104.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal11.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal12.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal13.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal14.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal15.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal16.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal17.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal18.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal19.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal2.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal20.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal21.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal22.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal23.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal24.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal25.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal26.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal27.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal28.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal29.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal3.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal30.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal31.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal32.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal33.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal34.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal35.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal36.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal37.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal38.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal39.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal4.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal40.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal41.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal42.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal43.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal44.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal45.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal46.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal47.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal48.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal49.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal5.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal50.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal51.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal52.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal53.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal54.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal55.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal56.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal57.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal58.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal59.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal6.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal60.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal61.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal62.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal63.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal64.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal65.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal66.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal67.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal68.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal69.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal7.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal70.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal71.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal72.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal73.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal74.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal75.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal76.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal77.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal78.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal79.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal8.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal80.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal81.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal82.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal83.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal84.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal85.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal86.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal87.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal88.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal89.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal9.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal90.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal91.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal92.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal93.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal94.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal95.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal96.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal97.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal98.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						
+						@font-face {
+							font-family: 'noto';
+							src: url('https://inline.company/wp-content/bcf-fonts/Noto Sans TC/noto-sans-tc-900-normal99.woff2') format('woff2');
+							font-weight: sans;
+							font-style: tc;
+						}
+						/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+  #display-medium-owl-demo .owl-item{
+	  padding-left:10px;
+    padding-right:10px;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	}
+	#display-medium-owl-demo img{
+	  display: block;
+	  max-width: 100%;
+	  height: auto;
+	  max-height: 200px;
+	}
+	#display-medium-owl-demo .medium-image{
+	  display: block;
+	  max-width: 100%;
+		height: 200px;
+		background-size: cover;
+		background-position: center;
+	}
+	#display-medium-owl-demo .details-title {
+		border-bottom: 1px solid #212121;
+	}/*
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+    cursor:url(/wp-content/plugins/display-medium-posts/public/vendors/owl-carousel/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+/*
+* 	Owl Carousel Owl Demo Theme
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(/wp-content/plugins/display-medium-posts/public/vendors/owl-carousel/AjaxLoader.gif) no-repeat center center
+}
